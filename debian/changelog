@@ -1,3 +1,9 @@
+glauth (2.3.2-0~exp2) experimental; urgency=low
+
+  * Add missing Conflicts glauth-binary-dist on glauth.
+
+ -- Dato Simó <dato@geertz.rel>  Thu, 15 Aug 2024 03:18:12 -0300
+
 glauth (2.3.2-0~exp1) experimental; urgency=low
 
   * Pre-release (using pre-built binaries).
