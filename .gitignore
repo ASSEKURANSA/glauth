@@ -16,3 +16,6 @@ v2/buildlogs
 # gomocks auto-generated
 **/mock_*.go
 
+
+/.pc/
+/_build/
