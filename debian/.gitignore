@@ -1,0 +1,7 @@
+/.debhelper/
+/*-build-stamp
+/*.substvars
+/files
+/glauth/
+/glauth-binary-dist/
+/tmp

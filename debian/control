@@ -1,39 +1,22 @@
 Source: glauth
-Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
-Uploaders:
- Dato Simó <dato@net.com.org.es>
+Maintainer: Dato Simó <dato@net.com.org.es>
 Section: golang
-Testsuite: autopkgtest-pkg-go
 Priority: optional
 Build-Depends:
  debhelper-compat (= 13),
  dh-golang,
  golang-any,
- golang-github-docopt-docopt-go-dev,
- golang-github-fsnotify-fsnotify-dev,
- golang-github-jinzhu-copier-dev,
- golang-github-pquerna-otp-dev,
- golang-github-prometheus-client-model-dev,
- golang-github-rs-zerolog-dev,
- golang-go.uber-mock-dev,
- golang-golang-x-crypto-dev,
- golang-opentelemetry-contrib-dev,
- golang-opentelemetry-otel-dev,
- golang-prometheus-client-dev,
- golang-toml-dev,
 Standards-Version: 4.6.0
-Vcs-Browser: https://salsa.debian.org/go-team/packages/glauth
-Vcs-Git: https://salsa.debian.org/go-team/packages/glauth.git
 Homepage: https://github.com/glauth/glauth
 Rules-Requires-Root: no
 XS-Go-Import-Path: github.com/glauth/glauth
 
-Package: glauth
-Architecture: any
+Package: glauth-binary-dist
+Provides: glauth
+Architecture: amd64
 Depends:
  ${misc:Depends},
  ${shlibs:Depends},
-Built-Using: ${misc:Built-Using}
 Description: A lightweight LDAP server for development or home use (program)
  Go-lang LDAP Authentication (GLAuth) is a secure, easy-to-use, LDAP server
  with configurable backends.
@@ -51,3 +34,5 @@ Description: A lightweight LDAP server for development or home use (program)
     proxy to existing LDAP servers.
   * Two Factor Authentication (transparent to applications).
   * Multiple backends can be chained to inject features.
+ .
+ THIS PACKAGE CONTAINS A PRE-COMPILED BINARY.
