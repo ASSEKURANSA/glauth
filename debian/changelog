@@ -1,5 +1,5 @@
-glauth (2.3.2-1) UNRELEASED; urgency=medium
+glauth (2.3.2-0~exp1) experimental; urgency=low
 
-  * Initial release (pre-built binaries).
+  * Pre-release (using pre-built binaries).
 
  -- Dato Simó <dato@net.com.org.es>  Wed, 14 Aug 2024 21:29:28 -0300
