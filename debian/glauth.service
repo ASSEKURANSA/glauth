@@ -1,0 +1,9 @@
+[Unit]
+Description=A lightweight LDAP server
+
+[Service]
+User=glauth
+Restart=on-abnormal
+ExecStart=/usr/bin/glauth -c /etc/glauth/glauth.toml
+
+# TODO: add Install section once we ship a config file.

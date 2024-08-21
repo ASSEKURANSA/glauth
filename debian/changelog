@@ -1,8 +1,15 @@
+glauth (2.3.2-0~exp5) experimental; urgency=low
+
+  * Create glauth user/group.
+  * Add bare-bones, not-enabled-by-default systemd service unit.
+
+ -- Dato Simó <dato@net.com.org.es>  Tue, 20 Aug 2024 21:05:46 -0300
+
 glauth (2.3.2-0~exp2) experimental; urgency=low
 
   * Add missing Conflicts glauth-binary-dist on glauth.
 
- -- Dato Simó <dato@geertz.rel>  Thu, 15 Aug 2024 03:18:12 -0300
+ -- Dato Simó <dato@net.com.org.es>  Thu, 15 Aug 2024 03:18:12 -0300
 
 glauth (2.3.2-0~exp1) experimental; urgency=low
 

@@ -1,5 +1,7 @@
 /.debhelper/
 /*-build-stamp
+/*.debhelper
+/*.debhelper.log
 /*.substvars
 /files
 /glauth/
