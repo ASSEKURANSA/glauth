@@ -1,3 +1,9 @@
+glauth (2.3.2-0~exp7) experimental; urgency=low
+
+  * Add [Install] section to glauth.service, but do not enable/start it.
+
+ -- Dato Simó <dato@net.com.org.es>  Mon, 23 Sep 2024 07:43:54 -0300
+
 glauth (2.3.2-0~exp5) experimental; urgency=low
 
   * Create glauth user/group.
